@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using System;
 
 namespace KodotiAzureDevOps.Api.Controllers
 {
@@ -6,10 +7,23 @@ namespace KodotiAzureDevOps.Api.Controllers
     [Route("/")]
     public class DefaultController : ControllerBase
     {
+        private static DateTime? ReleaseDate { get; set; }
+
         [HttpGet]
-        public string Get()
+        public IActionResult Get()
         {
-            return "Running ..";
+            if (ReleaseDate == null) 
+            {
+                ReleaseDate = DateTime.UtcNow;
+            }
+
+            return Ok(
+                new
+                {
+                    Enviroment = Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT"),
+                    ReleaseDate
+                }
+            );
         }
     }
 }
