@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Faker.Net" Version="1.3.77" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\KodotiAzureDevOps.Models\KodotiAzureDevOps.Models.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29926.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. Api", "01. Api", "{43F62C60-D83B-4FD2-9FCA-988C42985BC5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05. Tests", "05. Tests", "{F82DA3FE-D557-499E-9E41-7D44E051F61D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. Services", "02. Services", "{24C9441A-2EC7-489B-B46A-65CA2B2FE41B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03. Models", "03. Models", "{592451F1-F946-451B-9C1D-7768C88E38A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KodotiAzureDevOps.Api", "src\KodotiAzureDevOps.Api\KodotiAzureDevOps.Api.csproj", "{B2240B97-DFD6-4647-B3CE-0FB19382A090}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KodotiAzureDevOps.Services", "src\KodotiAzureDevOps.Services\KodotiAzureDevOps.Services.csproj", "{BC56444F-4F5B-4810-8C48-494311D4507D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KodotiAzureDevOps.Models", "src\KodotiAzureDevOps.Models\KodotiAzureDevOps.Models.csproj", "{5978A706-24DE-40D5-BEE2-40BEFE9B9CFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KodotiAzureDevOps.Tests", "src\KodotiAzureDevOps.Tests\KodotiAzureDevOps.Tests.csproj", "{8FC9779C-5946-4562-A644-A1D807C84C13}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B2240B97-DFD6-4647-B3CE-0FB19382A090}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2240B97-DFD6-4647-B3CE-0FB19382A090}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2240B97-DFD6-4647-B3CE-0FB19382A090}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2240B97-DFD6-4647-B3CE-0FB19382A090}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC56444F-4F5B-4810-8C48-494311D4507D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC56444F-4F5B-4810-8C48-494311D4507D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC56444F-4F5B-4810-8C48-494311D4507D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC56444F-4F5B-4810-8C48-494311D4507D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5978A706-24DE-40D5-BEE2-40BEFE9B9CFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5978A706-24DE-40D5-BEE2-40BEFE9B9CFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5978A706-24DE-40D5-BEE2-40BEFE9B9CFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5978A706-24DE-40D5-BEE2-40BEFE9B9CFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FC9779C-5946-4562-A644-A1D807C84C13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FC9779C-5946-4562-A644-A1D807C84C13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FC9779C-5946-4562-A644-A1D807C84C13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FC9779C-5946-4562-A644-A1D807C84C13}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B2240B97-DFD6-4647-B3CE-0FB19382A090} = {43F62C60-D83B-4FD2-9FCA-988C42985BC5}
+		{BC56444F-4F5B-4810-8C48-494311D4507D} = {24C9441A-2EC7-489B-B46A-65CA2B2FE41B}
+		{5978A706-24DE-40D5-BEE2-40BEFE9B9CFD} = {592451F1-F946-451B-9C1D-7768C88E38A0}
+		{8FC9779C-5946-4562-A644-A1D807C84C13} = {F82DA3FE-D557-499E-9E41-7D44E051F61D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DA025C67-3236-4B79-8335-05509210A6D3}
+	EndGlobalSection
+EndGlobal
