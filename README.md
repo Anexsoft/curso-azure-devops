@@ -1,15 +1,17 @@
 # Proyecto para el curso de AzureDevOps
-Proyecto usado para realizar la publicación a Azure a través de AzureDevOps.
+Proyecto usado para realizar la publicación a Azure a través de Azure DevOps.
 
 ## ¿Qué es el proyecto?
-Una API bastante simple que implementa 2 endpoints de lectura y consume la data de la memoria del servidor.
+Un proyecto bastante simple que muestra un json en la ruta principal que nos indica el entorno donde se esta publicando el proyecto (STAGING, PRODUCTION, ETC) y la fecha actual del release.
 
 ```
-// Ruta para listar los usuarios
-users
-
-// Ruta para traer un usuario especifico
-users/{id}
+{
+  "enviroment": "Development",
+  "releaseDate": "2020-05-19T05:56:50.1707389Z"
+}
 ```
 
 Adicionalmente, se han creado 2 pruebas unitarias para corroborarlas a través de la integración continua.
+
+## ¿Dónde puedo tomar el curso de este proyecto?
+El curso esta disponible gratuitamente a través del siguiente link http://kodoti.com/cursos/azure-devops-cicd.
