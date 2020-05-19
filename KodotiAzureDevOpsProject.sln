@@ -11,13 +11,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. Services", "02. Service
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03. Models", "03. Models", "{592451F1-F946-451B-9C1D-7768C88E38A0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KodotiAzureDevOps.Api", "src\KodotiAzureDevOps.Api\KodotiAzureDevOps.Api.csproj", "{B2240B97-DFD6-4647-B3CE-0FB19382A090}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KodotiAzureDevOps.Api", "src\KodotiAzureDevOps.Api\KodotiAzureDevOps.Api.csproj", "{B2240B97-DFD6-4647-B3CE-0FB19382A090}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KodotiAzureDevOps.Services", "src\KodotiAzureDevOps.Services\KodotiAzureDevOps.Services.csproj", "{BC56444F-4F5B-4810-8C48-494311D4507D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KodotiAzureDevOps.Services", "src\KodotiAzureDevOps.Services\KodotiAzureDevOps.Services.csproj", "{BC56444F-4F5B-4810-8C48-494311D4507D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KodotiAzureDevOps.Models", "src\KodotiAzureDevOps.Models\KodotiAzureDevOps.Models.csproj", "{5978A706-24DE-40D5-BEE2-40BEFE9B9CFD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KodotiAzureDevOps.Models", "src\KodotiAzureDevOps.Models\KodotiAzureDevOps.Models.csproj", "{5978A706-24DE-40D5-BEE2-40BEFE9B9CFD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KodotiAzureDevOps.Tests", "src\KodotiAzureDevOps.Tests\KodotiAzureDevOps.Tests.csproj", "{8FC9779C-5946-4562-A644-A1D807C84C13}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KodotiAzureDevOps.Tests", "src\KodotiAzureDevOps.Tests\KodotiAzureDevOps.Tests.csproj", "{8FC9779C-5946-4562-A644-A1D807C84C13}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{8A5AA500-0774-4CD1-AC13-118A4998E353}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +43,10 @@ Global
 		{8FC9779C-5946-4562-A644-A1D807C84C13}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8FC9779C-5946-4562-A644-A1D807C84C13}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8FC9779C-5946-4562-A644-A1D807C84C13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A5AA500-0774-4CD1-AC13-118A4998E353}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A5AA500-0774-4CD1-AC13-118A4998E353}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A5AA500-0774-4CD1-AC13-118A4998E353}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A5AA500-0774-4CD1-AC13-118A4998E353}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

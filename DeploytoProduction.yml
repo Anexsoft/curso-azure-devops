@@ -1,0 +1,43 @@
+apiVersion: v1
+kind: Service
+metadata:
+    name: svc-kodotiazuredevopsapiprod
+    labels:
+        product: kodotiazuredevopsapiprod
+spec:
+    selector:
+        app: app-kodotiazuredevopsapiprod
+    type: LoadBalancer
+    ports:
+    - port: 80
+      targetPort: 80
+      protocol: TCP
+      name: http
+---
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+    name: dep-kodotiazuredevopsapiprod
+spec:
+    replicas: 1
+    strategy:
+        rollingUpdate:
+            maxSurge: 1
+            maxUnavailable: 1
+        type: RollingUpdate
+    template:
+        metadata:
+            labels:
+                app: app-kodotiazuredevopsapiprod
+        spec:
+            containers:
+            - image: dockerapiatc.azurecr.io/kodotiazuredevopsapi:__Build.BuildId__
+              imagePullPolicy: IfNotPresent
+              name: kodotiazuredevopsapiprod
+              ports:
+              - containerPort: 80
+              env:
+              - name: ASPNETCORE_ENVIRONMENT
+                value: "Production"
+            imagePullSecrets:
+            - name: regsecret
