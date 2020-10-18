@@ -14,4 +14,4 @@ Un proyecto bastante simple que muestra un json en la ruta principal que nos ind
 Adicionalmente, se han creado 2 pruebas unitarias para corroborarlas a través de la integración continua.
 
 ## ¿Dónde puedo tomar el curso de este proyecto?
-El curso esta disponible gratuitamente a través del siguiente link http://kodoti.com/cursos/azure-devops-cicd.
+El curso esta disponible gratuitamente a través del siguiente link https://www.youtube.com/playlist?list=PL9prAn3zOWZ6HTdT_S4j2NXGhDyhTRoTh
